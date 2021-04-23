@@ -9,14 +9,18 @@
  ************************************************************************************/
 
 $mod_strings = array(
-	'ModuleName' => 'Module Name',
-	'SINGLE_ModuleName' => 'Module Name',
-	'ModuleName ID' => 'Module Name ID',
+	'cbRequirementBudgetAllocation' => 'Requirement-Budget Allocations',
+	'SINGLE_cbRequirementBudgetAllocation' => 'Requirement-Budget Allocation',
+	'cbRequirementBudgetAllocation ID' => 'RBA ID',
 
 	'LBL_CUSTOM_INFORMATION' => 'Custom Information',
-	'LBL_MODULEBLOCK_INFORMATION' => 'ModuleBlock Information',
+	'LBL_cbRequirementBudgetAllocation_INFORMATION' => 'Requirement-Budget Allocation',
 	'LBL_DESCRIPTION_INFORMATION' => 'Description',
 
-	'ModuleFieldLabel' => 'ModuleFieldLabel Text',
+	'Requirement Budget Allocation No' => 'Requirement-BA No',
+	'Requirement' => 'Requirement',
+	'Budget Item' => 'Budget Item',
+	'Percentage' => 'Percentage',
+	'Allocated Amount' => 'Allocated Amount',
 );
 ?>

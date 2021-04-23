@@ -17,7 +17,6 @@ $mod_strings = array(
 	'LBL_cbRequirementBudgetAllocation_INFORMATION' => 'Requirement-Budget Allocation',
 	'LBL_DESCRIPTION_INFORMATION' => 'Description',
 
-
 	'Requirement Budget Allocation No' => 'Requirement-BA No',
 	'Requirement' => 'Requirement',
 	'Budget Item' => 'Budget Item',
