@@ -20,8 +20,8 @@
   `cbrequirementbudgetallocationno` varchar(56) default NULL,
   `cbreq` int(11) default NULL,
   `budgetitem` int(11) default NULL,
-  `percentage` int(30) default NULL,
-  `pbamount` int(30) default NULL,
+  `percentage` decimal(5,2) default NULL,
+  `pbamount` decimal(26,6) default NULL,
   PRIMARY KEY (`cbrequirementbudgetallocationid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
 </table>
@@ -73,7 +73,7 @@
 <selected>0</selected>
 <sequence>1</sequence>
 <maximumlength>100</maximumlength>
-<typeofdata>I~O</typeofdata>
+<typeofdata>V~O</typeofdata>
 <quickcreate>0</quickcreate>
 <quickcreatesequence>0</quickcreatesequence>
 <displaytype>1</displaytype>
@@ -96,7 +96,7 @@
 <selected>0</selected>
 <sequence>3</sequence>
 <maximumlength>100</maximumlength>
-<typeofdata>I~O</typeofdata>
+<typeofdata>V~O</typeofdata>
 <quickcreate>0</quickcreate>
 <quickcreatesequence>0</quickcreatesequence>
 <displaytype>1</displaytype>
@@ -119,7 +119,7 @@
 <selected>0</selected>
 <sequence>5</sequence>
 <maximumlength>100</maximumlength>
-<typeofdata>I~O</typeofdata>
+<typeofdata>N~O</typeofdata>
 <quickcreate>0</quickcreate>
 <quickcreatesequence>0</quickcreatesequence>
 <displaytype>1</displaytype>
